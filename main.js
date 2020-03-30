@@ -9,7 +9,7 @@ $(document).ready(function () {
         $('.top-nav').removeClass('open');
     });
 
-    $('nav a[href*="#"]').on('click',function(){
+    /*$('nav a[href*="#"]').on('click',function(){
         $('html, body').animate(keyframes: {
             scrollTop: $($(this).attr('href')).offset().top -100
         }, options:2000);
@@ -21,11 +21,11 @@ $(document).ready(function () {
         }, options:2000);
     });
 
-    AOS.init(
+    /AOS.init(
         {
             easing: 'ease',
             duration: 1000,
             once:true,
         }
-    );
+    );*/
 });
