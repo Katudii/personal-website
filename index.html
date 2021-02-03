@@ -4,192 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/skills.css">
-    <link rel="stylesheet" href="styles/timeline.css">
-    <link rel="stylesheet" href="styles/form.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/portfolio.css">
-    <link rel="stylesheet" href="styles/mediaqueries.css">
-
-    <title>Thabiso Makolana</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Zulucoda</title>
 </head>
 
 <body>
-    <header>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-        </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li>
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="landing-text">
-            <h1>Thabiso Makolana</h1>
-            <h6>UI | UX Designer and Web Developer</h6>
-        </div>
-    </header>
-
-    <section class="about" id="about">
-        <div class="container">
-            <div class="profile-img">
-                <img src="images/thabiso.jpg" alt="">
-            </div>
-            <div class="about-details">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
+    <div class="container">
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jhon Doe</a>
                 </div>
-                <p>I'm a self taught programmer from the east rand of Gauteng .
-                    Passionate about everything that runs on the internet and software developmet!
-                    As you can see i also love cartoons
-                </p>
-                <div class="social-media">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="#" class="icon-link">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="icon-link">
-                                <i class="fab fa-twitter-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="icon-link">
-                                <i class="fab fa-dribbble-square"></i>
-                            </a>
-                        </li>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
-            </div>
 
-        </div>
-    </section>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Services</h1>
-                <h6>What can i do for you</h6>
-            </div>
-            <div class="my-skills">
-                <div class="skill" >
-                    <div class="icon-container">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h1>Web Design</h1>
-                    <p>Modern interactive mockup design for websites and mobile apps.
-                    </p>
-                </div>
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h1>Web Development</h1>
-                    <p>Build business websites and web applications using React Js
-                    </p>
-                </div>
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h1>App Development</h1>
-                    <p>Design and build beautiful intiutive android and ios mobile apps using technologies such as the Flutter SDK
+        <div class="hero-section">
+            <div class="header-text">
+                <div class="intro-text">
+                    <p>Hola, my name is</p>
+                    <h1 class="name">Thabiso Makolana</h1>
+                    <h1>I build things for the web</h1>
+                    <p class="header-paragraph">I'm a software developer based in Johannesburg
+                        South Africa, just a kasi boy that loves to build stuff with software, i create
+                        websites and mobile applications
                     </p>
                 </div>
             </div>
+            <a href="#" class="btn get-in-touch">Get In Touch</a>
         </div>
-    </section>
 
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>Coming soon</h6>
+        <div class="about-me">
+            <div class="about-me-text">I'm a software developer based in Johannesburg
+                South Africa, Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum accusantium,
+                deleniti vitae, natus in veritatis, cumque tempore tenetur animi quae atque ab quia non. Qui temporibus
+                labore animi magni.
             </div>
-            <div class="portfolio-item">
-
-            </div>
+            <div class="about-me-img"><img src="" alt=""></div>
         </div>
-    </section>
 
-    <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Work Experience</h1>
-                <h6>Current jobs</h6>
-            </div>
-            <div class="timeline">
-                <ul>
-                    <li class="date" data-date="2020-Present">
-                        <h1>Umuzi</h1>
-                        <p>Web developmet learnership at Umuzi</p>
-                    </li>
-                </ul>
-            </div>
+        <div class="contact-me">
+            <form action=""></form>
         </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Hire me</h6>
-            </div>
-            <form action="">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                <label for="services">Services:</label>
-                <select name="services" id="service">
-                    <option value="">Web Design</option>
-                    <option value="">Web Development</option>
-                    <option value="">Web Design/Development</option>
-                </select>
-                <label for="subject">Subject:</label>
-                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                <input type="submit" value="submit">
-            </form>
-        </div>
-    </section>
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up">
-
-            </i>
-        </div>
-        <p>copy; 2020 Thabiso Makolana</p>
-    </footer>
-
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+    </div>
 </body>
 
 </html>
