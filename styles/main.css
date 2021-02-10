@@ -101,6 +101,16 @@ img{
     background-color: var(--first-color);
 }
 
+.name{
+    font-size: 4.25rem;
+    margin: 0;
+    color: #b0b7b9;
+}
+
+.what-i-do{
+    font-size: 4.25rem;
+}
+
 /*===== LAYOUT =====*/
 .bd-grid{
     max-width: 1024px;
@@ -128,6 +138,9 @@ img{
 
 .header-text{
     color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*===== NAV =====*/
